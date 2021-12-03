@@ -35,7 +35,7 @@ const Error = React.lazy(() => import("./components/pages/Error"));
 
 function App() {
   return (
-    <Router basename={"."}>
+    <Router basename={"/nhk-react-app"}>
       <Suspense fallback={<div></div>}>
         <Switch>
           <Route exact path="/" component={Home} />
