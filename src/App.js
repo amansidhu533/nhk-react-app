@@ -35,7 +35,7 @@ const Error = React.lazy(() => import("./components/pages/Error"));
 
 function App() {
   return (
-    <Router basename={"/themes/themeforest/react/quickmunch"}>
+    <Router basename={"."}>
       <Suspense fallback={<div></div>}>
         <Switch>
           <Route exact path="/" component={Home} />
