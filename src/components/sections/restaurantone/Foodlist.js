@@ -133,7 +133,7 @@ class Foodlist extends Component {
                                 </div>{" "}
                                 <span className="circle-tag">
                                   <img
-                                    src="/assets/img/svg/heart.svg"
+                                    src="assets/img/svg/heart.svg"
                                     alt="tag"
                                   />
                                 </span>
