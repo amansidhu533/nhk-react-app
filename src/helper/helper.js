@@ -40,7 +40,7 @@ function restaurantRatingStars(rating) {
   return stars;
 }
 function fetchFlavorIcon(flavor) {
-  return "/assets/img/svg/" + flavor + ".svg";
+  return "assets/img/svg/" + flavor + ".svg";
 }
 export {
   calculateRating,
