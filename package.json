@@ -1,0 +1,64 @@
+{
+  "homepage": "http://amansidhu533.github.io/nhk-react-app",
+  "name": "quickmunch",
+  "version": "0.1.0",
+  "private": true,
+  "main": "lib/index",
+  "types": "lib/index",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^4.6.0",
+    "classnames": "^2.3.1",
+    "goober": "^2.0.41",
+    "jquery": "^3.6.0",
+    "magnific-popup": "^1.1.0",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.2",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-bootstrap": "^1.6.1",
+    "react-countdown": "^2.3.2",
+    "react-countup": "^4.4.0",
+    "react-dom": "^17.0.2",
+    "react-google-recaptcha": "^2.1.0",
+    "react-meta-tags": "^0.7.4",
+    "react-rangeslider": "^2.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.0",
+    "react-sticky-box": "^0.9.3",
+    "react-visibility-sensor": "^5.1.1",
+    "react-wow": "^1.0.0",
+    "swiper": "^6.8.4",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
