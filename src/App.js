@@ -1,4 +1,5 @@
 import React, { Suspense } from "react";
+import { render } from "react-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // Pages
@@ -66,5 +67,4 @@ function App() {
     </Router>
   );
 }
-
 export default App;
