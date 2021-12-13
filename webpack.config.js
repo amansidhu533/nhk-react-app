@@ -6,10 +6,9 @@ module.exports = {
   entry: "./src/index;js",
   output: {
     path: path.resolve(__dirname, "src", "index.js"),
-    __filename: "main.js",
+    __filename: "index.js",
     publicPath: "/",
   },
-  //...
   devServer: {
     historyApiFallback: true,
   },
