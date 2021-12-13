@@ -1,5 +1,6 @@
 import React, { Suspense } from "react";
 import { render } from "react-dom";
+import { browserHistory } from "react-router";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // Pages
@@ -36,7 +37,7 @@ const Error = React.lazy(() => import("./components/pages/Error"));
 
 function App() {
   return (
-    <Router basename={"/nhk-react-app"}>
+    <Router basename={"/nhk-react-app"} history={browserHistory}>
       <Suspense fallback={<div></div>}>
         <Switch>
           <Route exact path="/" component={Home} />
