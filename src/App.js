@@ -1,6 +1,5 @@
 import React, { Suspense } from "react";
-import { render } from "react-dom";
-import { browserHistory } from "react-router";
+import { HashRouter } from "react-router-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // Pages
@@ -37,7 +36,7 @@ const Error = React.lazy(() => import("./components/pages/Error"));
 
 function App() {
   return (
-    <Router basename={"/nhk-react-app"} history={browserHistory}>
+    <Router basename={"/nhk-react-app"} history={HashRouter}>
       <Suspense fallback={<div></div>}>
         <Switch>
           <Route exact path="/" component={Home} />
