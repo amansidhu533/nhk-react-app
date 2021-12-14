@@ -61,6 +61,8 @@
   },
   "devDependencies": {
     "gh-pages": "^2.2.0",
+    "git-rev-sync": "^3.0.1",
+    "gulp-gh-pages": "^0.5.4",
     "html-webpack-plugin": "^4.5.2",
     "webpack": "^4.44.2",
     "webpack-cli": "^4.9.1",
