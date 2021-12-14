@@ -1,4 +1,6 @@
 {
+  "baseurl": "",
+  "url": "http://amansidhu533.github.io/nhk-react-app",
   "homepage": "http://amansidhu533.github.io/nhk-react-app",
   "name": "quickmunch",
   "version": "0.1.0",

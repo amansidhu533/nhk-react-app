@@ -15,8 +15,8 @@
     "static/js/6.524cb20e.chunk.js": "/nhk-react-app/static/js/6.524cb20e.chunk.js",
     "static/js/6.524cb20e.chunk.js.map": "/nhk-react-app/static/js/6.524cb20e.chunk.js.map",
     "main.css": "/nhk-react-app/static/css/main.df1d96cd.chunk.css",
-    "main.js": "/nhk-react-app/static/js/main.13042b7e.chunk.js",
-    "main.js.map": "/nhk-react-app/static/js/main.13042b7e.chunk.js.map",
+    "main.js": "/nhk-react-app/static/js/main.0e5aa23d.chunk.js",
+    "main.js.map": "/nhk-react-app/static/js/main.0e5aa23d.chunk.js.map",
     "runtime-main.js": "/nhk-react-app/static/js/runtime-main.8fb07207.js",
     "runtime-main.js.map": "/nhk-react-app/static/js/runtime-main.8fb07207.js.map",
     "static/css/9.403673cf.chunk.css": "/nhk-react-app/static/css/9.403673cf.chunk.css",
@@ -86,6 +86,6 @@
     "static/css/9.403673cf.chunk.css",
     "static/js/9.5805bf37.chunk.js",
     "static/css/main.df1d96cd.chunk.css",
-    "static/js/main.13042b7e.chunk.js"
+    "static/js/main.0e5aa23d.chunk.js"
   ]
 }
