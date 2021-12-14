@@ -5,13 +5,11 @@ module.exports = {
   context: "_dirname",
   entry: "./src/index;js",
   output: {
-    path: path.resolve(__dirname, "src", "index.js"),
+    path: path.resolve(__dirname, "dist"),
     __filename: "index.js",
     publicPath: "/",
   },
-  devServer: {
-    historyApiFallback: true,
-  },
+  devServer: { historyApiFallback: { index: "./index.html" } },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "public/index.html"),
