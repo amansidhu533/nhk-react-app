@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 
 // Css
@@ -17,9 +17,9 @@ import "./assets/css/color4.css";
 import "./index.css";
 
 ReactDOM.render(
-  <HashRouter basename={"/nhk-react-app"}>
+  <BrowserRouter basename={"/nhk-react-app"}>
     <App />
-  </HashRouter>,
+  </BrowserRouter>,
   document.getElementById("quickmunch")
 );
 // If you want to start measuring performance in your app, pass a function
